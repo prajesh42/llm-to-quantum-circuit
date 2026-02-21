@@ -1,0 +1,7 @@
+{
+  "qubits": 2,
+  "allowed_gates": ["h", "x", "cx"],
+  "gates": [
+    {"type": "ccx", "control": 0, "target": 1}
+  ]
+}
