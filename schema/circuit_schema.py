@@ -17,7 +17,7 @@ class GateModel(BaseModel):
         #control is required only for cx gate
         if self.type == "cx":
             if self.control is None:
-                raise ValueError("cx gate requires 'contorl'")
+                raise ValueError("cx gate requires 'control'")
             if self.control == self.target:
                 raise ValueError("cx gate control and target must be different")
 
